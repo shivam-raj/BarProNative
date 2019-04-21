@@ -27,10 +27,18 @@ Make sure the following are installed to contribute to this repository
       
       Make sure you have set up Git <br/>
       <code> git --version </code>
-      
-      For setting up Git :
+     
       <br/>
-      <code>git config --global user.name "Emma Paris"</code><br/>
-      <code>git config --global user.email "eparis@atlassian.com"</code>
-      
-      
+      Clone the GitHub repository by :<br/>
+      <code>git clone https://github.com/shivam-raj/BarProNative.git</code>
+      <br/>
+      <br/>
+      Enter the username and password as given to you
+     
+4) <h2> NativeBase </h2><br/>
+    
+      Browse into project folder & Install NativeBase by :<br/>
+      <code>npm install native-base --save</code><br/>
+      <code>react-native link</code><br/>
+
+      Look into Documentation for more info about NativeBase : <a href="https://docs.nativebase.io/Components.html#Components">Documentation</a>
