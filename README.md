@@ -1,4 +1,4 @@
-# BarProNative
+# BarPro
 Bar Pro designed in react native
 
 Make sure the following are installed to contribute to this repository
