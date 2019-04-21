@@ -26,25 +26,7 @@ export default class DrinkCard extends React.Component {
       });
   }
 
-  actionOnRow(item) {
-    var name = item.strIngredient1
-    let url2 = 'https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=' + name
-    fetch(url2)
-      .then((response) => response.json())
-      .then((responseJson) => {
-        this.setState({
-          isLoading: false,
-          page:2,
-          dataSource: responseJson.drinks,
-        }, function(){
-
-        });
-
-      })
-      .catch((error) =>{
-        console.error(error);
-      });
-  }
+  
   render(){
 
     if (this.state.isLoading) {

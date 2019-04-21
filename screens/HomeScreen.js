@@ -22,7 +22,7 @@ export default class HomeScreen extends React.Component {
       <View style={styles.container}>
         <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
           <View style={styles.welcomeContainer}>
-            {/* <DrinkCard size='30'/> */}
+            <DrinkCard size='30'/>
           </View>
         </ScrollView>
       </View>
